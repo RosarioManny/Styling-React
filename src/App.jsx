@@ -1,16 +1,11 @@
-// src/App.jsx
 import './App.css';
-// Later on, we'll import button components here
+import Button1 from './components/normal-css/Button.jsx'
+
 
 const App = () => {
   return (
     <div className="App">
-      {
-        <h1>Hello World</h1>
-        // Add all example components:
-        // <Button1 buttonText="Example 1" />
-        //...
-      }
+        <Button1 buttonText="Example 1" />
     </div>
   );
 };
