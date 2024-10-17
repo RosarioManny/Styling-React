@@ -1,7 +1,7 @@
 const Button = ({ buttonText }) => {
 
     const buttonStyle = {
-        backgroundColor: '#b974b6',
+        backgroundColor: '#2574b6',
         borderRadius: '8px',
         color: 'white',
         fontSize: '24pt',
